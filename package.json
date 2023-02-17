@@ -1,6 +1,6 @@
 {
   "name": "@houd1ni/koa",
-  "version": "2.14.1",
+  "version": "2.14.2",
   "description": "Koa web app framework",
   "main": "lib/application.js",
   "exports": {
@@ -25,8 +25,7 @@
     "test": "jest --forceExit",
     "lint": "eslint --ignore-path .gitignore .",
     "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
-    "build": "gen-esm-wrapper . ./dist/koa.mjs",
-    "prepare": "npm run build"
+    "build": "gen-esm-wrapper . ./dist/koa.mjs"
   },
   "repository": "github.com/houd1ni/koa",
   "keywords": [
