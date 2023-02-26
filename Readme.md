@@ -8,7 +8,9 @@
   [![OpenCollective Sponsors][sponsors-image]](#sponsors)
   [![PR's Welcome][pr-welcoming-image]][pr-welcoming-url]
 
-  # this a fork without large (>200kb) mime-db dependency, but with 2.5kb mime/lite instead for low-memory environments.
+  ## this a fork without large (>200kb) mime-db dependency, but with 2.5kb mime/lite instead for low-memory environments.
+  ## Alls deps got upgraded. Moved to ES-Modules.
+  ## API will be kept the same as in original Koa.
   ### it should handle almost any sane use case though.
   ### it is meant to be in production, so I'll keep it up to date, by the way. Especially, if requested ;)
   
