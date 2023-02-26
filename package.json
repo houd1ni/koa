@@ -1,6 +1,6 @@
 {
   "name": "@houd1ni/koa",
-  "version": "2.15.6",
+  "version": "2.15.8",
   "description": "Koa web app framework",
   "types": "./index.d.ts",
   "exports": {
