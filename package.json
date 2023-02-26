@@ -1,8 +1,9 @@
 {
   "name": "@houd1ni/koa",
-  "version": "2.14.6",
+  "version": "2.15.0",
   "description": "Koa web app framework",
   "main": "lib/application.js",
+  "module": "lib/application.js",
   "types": "./index.d.ts",
   "exports": {
     ".": {
@@ -50,7 +51,7 @@
     "encodeurl": "^1.0.2",
     "escape-html": "^1.0.3",
     "fresh": "~0.5.2",
-    "http-assert": "^1.5.0",
+    "pepka": "^1.0.0-beta.8",
     "http-errors": "^2.0.0",
     "is-generator-function": "^1.0.10",
     "koa-compose": "^4.1.0",
@@ -75,7 +76,7 @@
     "supertest": "^6.3.3"
   },
   "engines": {
-    "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
+    "node": ">= 19.0.0"
   },
   "files": [
     "dist",
