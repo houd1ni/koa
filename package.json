@@ -1,7 +1,8 @@
 {
   "name": "@houd1ni/koa",
-  "version": "2.15.11",
+  "version": "2.15.12",
   "description": "Koa web app framework",
+  "type": "module",
   "types": "./index.d.ts",
   "exports": {
     ".": {
@@ -74,7 +75,7 @@
     "supertest": "^6.3.3"
   },
   "engines": {
-    "node": ">= 19.0.0"
+    "node": ">= 18.0.0"
   },
   "files": [
     "dist",
