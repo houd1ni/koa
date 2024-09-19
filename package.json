@@ -1,6 +1,6 @@
 {
   "name": "@houd1ni/koa",
-  "version": "2.15.19",
+  "version": "2.15.20",
   "description": "Koa web app framework",
   "type": "module",
   "types": "./index.d.ts",
